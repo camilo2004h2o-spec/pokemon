@@ -1,6 +1,6 @@
-# 🧩 PokeDex App - Despliegue en la Nube
+# PokeDex App - Despliegue en la Nube
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 PokeDex es una aplicación web estática que permite explorar diferentes especies de Pokémon, mostrando información detallada sobre sus características, tipos y habilidades.
 
@@ -8,7 +8,7 @@ El objetivo de este proyecto es desplegar la aplicación en la nube aplicando bu
 
 ---
 
-## 🌐 Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 * **Frontend:** Angular
 * **Control de versiones:** Git + GitHub
@@ -17,9 +17,9 @@ El objetivo de este proyecto es desplegar la aplicación en la nube aplicando bu
 
 ---
 
-## 🚀 Despliegue de la Aplicación
+# Despliegue de la Aplicación
 
-### 1. Clonar el repositorio
+## 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/camilo2004h2o-spec/pokemon.git
@@ -28,7 +28,7 @@ cd pokedex-angular
 
 ---
 
-### 2. Instalación de dependencias
+## 2. Instalación de dependencias
 
 ```bash
 npm install
@@ -36,7 +36,7 @@ npm install
 
 ---
 
-### 3. Construcción del proyecto
+## 3. Construcción del proyecto
 
 ```bash
 npm run build
@@ -50,7 +50,7 @@ dist/pokedex-angular
 
 ---
 
-### 4. Configuración de Azure Static Web Apps
+## 4. Configuración de Azure Static Web Apps
 
 Se creó un recurso en **Microsoft Azure** con los siguientes parámetros:
 
@@ -72,7 +72,7 @@ Cada vez que se realiza un `git push`, Azure:
 
 ---
 
-## 🔒 Seguridad de la Aplicación
+## Seguridad de la Aplicación
 
 Se implementaron encabezados HTTP de seguridad mediante el archivo:
 
@@ -80,7 +80,7 @@ Se implementaron encabezados HTTP de seguridad mediante el archivo:
 staticwebapp.config.json
 ```
 
-### 🔐 Headers configurados
+## Headers configurados
 
 * **Content-Security-Policy:** Previene ataques XSS
 * **Strict-Transport-Security:** Obliga uso de HTTPS
@@ -91,30 +91,30 @@ staticwebapp.config.json
 
 ---
 
-### 🧪 Validación de seguridad
+## Validación de seguridad
 
 Se realizó un análisis en:
 
 👉 https://securityheaders.com/
 
-📊 Resultado obtenido:
+ Resultado obtenido:
 
 * Calificación: **A / A+**
 * Nivel de seguridad: Alto
 
 ---
 
-## 🌍 URL Pública
+##  URL Pública
 
 La aplicación se encuentra disponible en:
 
 ```text
-* https://white-sand-0e6e6d40f.1.azurestaticapps.net/
+*👉 https://white-sand-0e6e6d40f.1.azurestaticapps.net/
 ```
 
 ---
 
-## 🧠 Reflexión Técnica
+##  Reflexión Técnica
 
 La implementación de encabezados de seguridad permitió mitigar vulnerabilidades comunes como XSS, clickjacking y filtración de información. Además, se evidenció la importancia de integrar prácticas de seguridad desde la fase de despliegue y no como un proceso posterior.
 
@@ -122,7 +122,7 @@ El uso de **Microsoft Azure** facilitó la automatización del despliegue, demos
 
 ---
 
-## ✅ Conclusión
+##  Conclusión
 
 Se logró desplegar exitosamente una aplicación web en la nube, aplicando buenas prácticas de seguridad y automatización. Este proceso permitió fortalecer habilidades en despliegue, configuración de entornos y protección de aplicaciones web en escenarios reales.
 
