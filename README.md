@@ -19,34 +19,25 @@ El objetivo de este proyecto es desplegar la aplicación en la nube aplicando bu
 
 # Despliegue de la Aplicación
 
-## 1. Clonar el repositorio
+## 1. Crear repositorio en git
 
-```bash
-git clone https://github.com/camilo2004h2o-spec/pokemon.git
-cd pokedex-angular
-```
+<img width="921" height="320" alt="image" src="https://github.com/user-attachments/assets/c35bcfd2-834d-4e75-b705-0e57413b2514" />
 
----
+## 2. Inicamos la inicializacion del repositorio
+<img width="905" height="572" alt="image" src="https://github.com/user-attachments/assets/2a315f94-024f-42cd-925c-c2af57a458d4" />
+<img width="917" height="569" alt="image" src="https://github.com/user-attachments/assets/1994d9a1-0b3d-4e75-86de-1d81b5f67361" />
 
-## 2. Instalación de dependencias
 
-```bash
-npm install
-```
 
----
+## 3. Proyecto creado 
+<img width="578" height="366" alt="image" src="https://github.com/user-attachments/assets/0aa05928-94fb-400d-bdf7-59edceabcf36" />
 
-## 3. Construcción del proyecto
 
-```bash
-npm run build
-```
+## 4. Creamos la aplicacion web statica en azure
+<img width="921" height="444" alt="image" src="https://github.com/user-attachments/assets/a1dbfef8-dae6-4578-9d52-bb77e9210c88" />
+<img width="921" height="411" alt="image" src="https://github.com/user-attachments/assets/9dc477b9-e36e-47b7-8cd2-3dd036f47c54" />
+<img width="993" height="483" alt="image" src="https://github.com/user-attachments/assets/9ff84d86-9fb4-4fbc-ae2b-56eb6d638768" />
 
-Esto genera la carpeta:
-
-```text
-dist/pokedex-angular
-```
 
 ---
 
