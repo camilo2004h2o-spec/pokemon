@@ -28,7 +28,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
 
-          # 🔥 CORRECCIÓN AQUÍ
+     
           app_location: "/pokedex-angular"
           api_location: ""
           output_location: "dist/pokedex-angular"
